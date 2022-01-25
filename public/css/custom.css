@@ -1,0 +1,178 @@
+.user-status-btn{
+    font-size: 30px;
+}
+
+
+.tooltip2 {
+    position: relative;
+    display: inline-block;
+    /*border-bottom: 1px dotted black;*/
+}
+
+.tooltip2 .tooltiptext2 {
+    visibility: hidden;
+    font-size: 15px;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip2 .tooltiptext2::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip2:hover .tooltiptext2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.username-heading{
+    padding-top: 12px;
+    padding-left: 5px;
+    letter-spacing: 2px;
+}
+
+.useremail{
+    padding-left: 5px;
+    font-size: 11px;
+}
+.about_me, .user-stat{
+    font-size: 11px;
+}
+
+
+
+
+
+
+
+/*body {font-family: "Lato", sans-serif;}*/
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 100%;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    width: 50%;
+
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    /*border: 1px solid #ccc;*/
+    border-top: none;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+/*#Posts {background-color:red;}*/
+/*#Stories {background-color:green;}*/
+.container {
+    position: relative;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+    /*background-color: #0d57ff;*/
+    transform: rotate(318deg);
+
+    position: absolute;
+    top: 8px;
+    left: 16px;
+
+    /*bottom: 20px;*/
+    /*right: 20px;*/
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.max-100{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+}
+
+.user-action-button{
+    font-size: 11px!important;
+    padding: 5px 8px;
+}
+
+
+.video-container{
+    /*position: relative;*/
+}
+
+.video-container>.player-buttons{
+    /*background: url("../assets/bin.png ");*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
+    /*background-size: 90px 90px;*/
+    /*height: 90px;*/
+    /*left: 90%;*/
+    /*margin: -64px 0 0 -64px;*/
+    /*position: absolute;*/
+    /*top: 30%;*/
+    /*width: 90px;*/
+    /*z-index: 1;*/
+}
+
+
